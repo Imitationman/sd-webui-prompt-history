@@ -1,8 +1,8 @@
-from pydantic_settings import BaseSettings
-from pydantic import Field
+# from pydantic_settings import BaseSettings
+from pydantic import Field, BaseModel
 
 
-class Settings(BaseSettings):
+class Settings(BaseModel):
     MODULE_PATH: str = Field(default="", env="MODULE_PATH")
 
     class Config:
