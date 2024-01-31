@@ -3,3 +3,16 @@ __pycache__
 */__pycache__
 */*/__pycache__
 */*/*/__pycache__
+
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Dev Requirements
+requirements-dev.txt
